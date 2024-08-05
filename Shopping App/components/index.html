@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VS-Store | Online-Shopping Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="../assets/Vstore_logo.jpg" width="125px" /></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="account.html">Account</a></li>
+            </ul>
+          </nav>
+          <a href="cart.html"><img src="../assets/cart.png" width="30px" height="30px" /></a>
+          <img src="../assets/menu.png" onclick="menutoggle()" class="menu-icon" />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>Give Your Life<br />A New Style!</h1>
+            <p>
+              Success isn’t always about greatness. It’s about consistency.
+              Consistent<br />hard work gains success. Greatness will come.
+            </p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="../assets/online-shopping.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------ featured categories --------------->
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="../assets/category-1.jpg" />
+          </div>
+          <div class="col-3">
+            <img src="../assets/category-2.jpg" />
+          </div>
+          <div class="col-3">
+            <img src="../assets/category-3.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------- Our Featured Products -------------->
+
+    <div class="small-container">
+      <h2 class="title">Featured Products</h2>
+      <div class="row1" id="featured-products">
+        <!-- Featured products will be injected here by JavaScript -->
+      </div>
+      <h2 class="title">Latest Products</h2>
+      <div class="row2" id="latest-products">
+        <!-- Latest products will be injected here by JavaScript -->
+      </div>
+    </div>
+
+    <!----------offer--------------->
+
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="../assets/exclusive.png" class="offer-img" />
+          </div>
+          <div class="col-2">
+            <p>Exclusively Available on VS-Store</p>
+            <h1>Smart Band 4</h1>
+            <small>The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3)
+              AMOLED color full-touch display with adjustable brightness, so
+              everything is clear as can be.</small
+            ><br />
+            <a href="" class="btn">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------testimonial--------------->
+
+    <div class="testimonial">
+      <h2 class="title">Testimonial</h2>
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h3></h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h3></h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <h3></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------Brands--------------->
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="../assets/logo-amazon.png" />
+          </div>
+          <div class="col-5">
+            <img src="../assets/logo-myntra.png" />
+          </div>
+          <div class="col-5">
+            <img src="../assets/logo-flipkart.png" />
+          </div>
+          <div class="col-5">
+            <img src="../assets/logo-ajio.png" />
+          </div>
+          <div class="col-5">
+            <img src="../assets/logo-nykaa.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------Footer--------------->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phone.</p>
+            <div class="app-logo">
+              <img src="../assets/play-store.png" />
+              <img src="../assets/app-store.png" />
+            </div>
+          </div>
+          <div class="footer-col2">
+            <img src="../assets/Vstore_logo.jpg" />
+            <p>
+              Our Purpose Is To Sustainably Make the Pleasure and Benefits of
+              Sports Accessible to the Many.
+            </p>
+          </div>
+          <div class="footer-col3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+
+    <!-------------js for toggle menu-------------->
+
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+    <script>
+      // Example product data
+      const products = [
+        { id: 1, name: "Red Printed T-Shirt", price: 110.00, image: "../assets/product-1.jpg", rating: 4, description: "" },
+        { id: 2, name: "HRX Sports Shoes", price: 175.00, image: "../assets/product-2.jpg", rating: 4.5, description: "" },
+        { id: 3, name: "HRX Gray Trackpants", price: 125.00, image: "../assets/product-3.jpg", rating: 4, description: "" },
+        { id: 4, name: "Blue Printed T-Shirt", price: 115.00, image: "../assets/product-4.jpg", rating: 4.5, description: "" },
+        { id: 5, name: "Puma Gray Sports Shoes", price: 185.00, image: "../assets/product-5.jpg", rating: 4, description: "" },
+        { id: 6, name: "Black Printed T-Shirt", price: 175.00, image: "../assets/product-6.jpg", rating: 4.5, description: "" },
+        { id: 7, name: "HRX Set of 3 Socks", price: 65.00, image: "../assets/product-7.jpg", rating: 4.5, description: "" },
+        { id: 8, name: "Black Fossil Watch", price: 175.00, image: "../assets/product-8.jpg", rating: 4, description: "" },
+        { id: 9, name: "Black Sportx Watch", price: 145, image: "../assets/product-9.jpg",  rating: 4, description: "" },
+        { id: 10, name: "Black HRX Shoes", price: 150.00, image: "../assets/product-10.jpg", rating: 4.5, description: "" },
+        { id: 11, name: "Gray Nike Shoes", price: 155.00, image: "../assets/product-11.jpg", rating: 4, description: "" },
+        { id: 12, name: "HRX Black Trackpants", price: 175.00, image: "../assets/product-12.jpg", rating: 4.5, description: "" }
+      ];
+
+      const featuredProducts = products.slice(0, 6);
+      const latestProducts = products.slice(6, 12);
+
+      const featuredContainer = document.getElementById('featured-products');
+      const latestContainer = document.getElementById('latest-products');
+
+      function addToCart(productId) {
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        const product = products.find(p => p.id == productId);
+        cart.push(product);
+        localStorage.setItem('cart', JSON.stringify(cart));
+        alert(`${product.name} added to cart`);
+        window.location.href = "cart.html"; // Redirect to cart page
+      }
+
+      function renderProducts(container, productArray) {
+        productArray.forEach(product => {
+          const productElement = document.createElement('div');
+          productElement.classList.add('col-4');
+          productElement.innerHTML = `
+            <img src="${product.image}" alt="${product.name}">
+            <h4>${product.name}</h4>
+            <div class="rating">
+              ${getRatingHTML(product.rating)}
+            </div>
+            <p>$${product.price}</p>
+            <button onclick="addToCart(${product.id})">Add to Cart</button>
+          `;
+          container.appendChild(productElement);
+        });
+      }
+
+      function getRatingHTML(rating) {
+        let ratingHTML = '';
+        for (let i = 1; i <= 5; i++) {
+          if (i <= rating) {
+            ratingHTML += '<i class="fa fa-star"></i>';
+          } else {
+            ratingHTML += '<i class="fa fa-star-o"></i>';
+          }
+        }
+        return ratingHTML;
+      }
+
+      document.addEventListener('DOMContentLoaded', () => {
+        renderProducts(featuredContainer, featuredProducts);
+        renderProducts(latestContainer, latestProducts);
+      });
+    </script>
+  </body>
+</html>
