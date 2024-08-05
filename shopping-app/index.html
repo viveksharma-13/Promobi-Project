@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VS-Store | Online-Shopping Website Design</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -23,12 +23,12 @@
           </div>
           <nav>
             <ul id="MenuItems">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="products.html">Products</a></li>
-              <li><a href="account.html">Account</a></li>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./components/products.html">Products</a></li>
+              <li><a href="./components/account.html">Account</a></li>
             </ul>
           </nav>
-          <a href="cart.html"><img src="./assets/cart.png" width="30px" height="30px" /></a>
+          <a href="./components/cart.html"><img src="./assets/cart.png" width="30px" height="30px" /></a>
           <img src="./assets/menu.png" onclick="menutoggle()" class="menu-icon" />
         </div>
         <div class="row">
@@ -264,7 +264,7 @@
         cart.push(product);
         localStorage.setItem('cart', JSON.stringify(cart));
         alert(`${product.name} added to cart`);
-        window.location.href = "cart.html"; // Redirect to cart page
+        window.location.href = "./components/cart.html"; // Redirect to cart page
       }
 
       function renderProducts(container, productArray) {
